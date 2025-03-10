@@ -1,14 +1,8 @@
 #pragma once
 #include <iostream>
+#include "../Node.cpp"
 
 namespace DataStructure {
-    struct ListNode
-    {
-        ListNode* head = nullptr;
-        ListNode* tail = nullptr;
-        int data = 0;
-    };
-
     class LinkedList
     {
     private:
